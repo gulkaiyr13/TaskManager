@@ -7,13 +7,9 @@ A simple Task Manager web application that allows users to add, delete, and mark
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
 - [API Endpoints](#api-endpoints)
-- [Themes](#themes)
 - [Contributing](#contributing)
-- [License](#license)
-
 ## Getting Started
 
 ### Prerequisites
@@ -32,18 +28,20 @@ cd TaskManager(Change into the project directory)
 npm install(Install dependencies)
 npm start(To run the Task Manager application)
 
-Features
+### Features
+
 Add new tasks to the list
 Mark tasks as completed
 Delete tasks
 Persist tasks using a mock API
 
-API Endpoints
+### API Endpoints
+
 POST /api/v1/user/{userId}/Task: Add a new task.
 PUT /api/v1/user/{userId}/Task/{taskId}: Update task status.
 DELETE /api/v1/user/{userId}/Task/{taskId}: Delete a task.
 
-Contributing
+### Contributing
 1. Fork the repository.
 2. Create a new branch: git checkout -b feature-name
 3. Make your changes and commit: git commit -m 'Add feature-name'
