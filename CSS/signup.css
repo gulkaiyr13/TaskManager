@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/winter-mountain-landscape-with-lake-ice-crack-vector-snow-background-cartoon-illustration-with-frozen-peak-range-snowy-rocky-nature-panorama-scene-danger-hole-river-water-near-rock-scenery_107791-21208.jpg?w=1060&t=st=1702990394~exp=1702990994~hmac=94d56d6d5172a2d73e72af7a5b07c8006dea3837e761707e5580b51c90c7da2f);
+    color: #37474F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.container {
+    width: 40%;
+    margin: 25px auto;
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+}
+
+.container.flipped {
+    transform: rotateY(180deg);
+}
+
+.container h3 {
+    text-align: center;
+    color: #002147; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #ECF6FF; 
+    color: #002147;
+}
+
+.btn-primary {
+    background-color: #5AAC44; 
+}
+
+a {
+    color: #1560BD;
+}
+
+a:hover {
+    color: #003366; 
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
