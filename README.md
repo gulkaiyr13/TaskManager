@@ -2,6 +2,8 @@
 
 A simple Task Manager web application that allows users to add, delete, and mark tasks as completed. The application uses a mock API for storing user tasks.
 
+[!Video](https://youtu.be/l_GgiODQVIY)
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -48,4 +50,3 @@ DELETE /api/v1/user/{userId}/Task/{taskId}: Delete a task.
 4. Push to the branch: git push origin feature-name
 5. Open a pull request.
 
-[!Video](https://youtu.be/l_GgiODQVIY)
